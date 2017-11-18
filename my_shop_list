@@ -77,7 +77,7 @@
           tombol.addEventListener('click', function(){
               // alert("Hai " +nama.value)
               var x = nama.value
-              list.innerHTML = list.innerHTML + "<li>" + x + "</li>";
+              list.innerHTML = list.innerHTML + "<li id='myList' class='list-group-item'>" + x + " <button type='button' id='delbtn' class='btn btn-danger'>Delete</button>" + "</li>";
           })
    
       </script>
